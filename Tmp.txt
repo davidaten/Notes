@@ -1,0 +1,13 @@
+
+http://putlockertv.ist/watch/Gbgg2ozd-exodus/episode-2.html
+
+if (p_link->SidMbrId > 0)//Logined
+	{
+		if (strcmp(p_link->SidMbrIdStr, p_link->pQryArgv[1]) == 0)
+			email = 1;
+		else
+			if (SidStat == 0)
+				if (SidRole >= RoleMdrt)
+					email = 1;
+	}
+

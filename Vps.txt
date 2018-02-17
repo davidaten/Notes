@@ -1,0 +1,22 @@
+
+https://www.vultr.com/pricing/ , 1T/15g/768m 
+https://www.a2hosting.com/vps-hosting/unmanaged $5/m, $4 extra ip, 2TB/512M, fast, Anytime Money Back Guarantee
+
+https://chubbable.com/choosing-the-best-vps-plan
+
+eaglewing.one 117
+eaglewings.one 136 not found
+eagleswings.one 155 taken
+eaglethewings.one 169
+
+eaglewings.com 133(78+55) taken 2016/10/1
+eaglethewings.com 166(78+88)
+myadm->eagledw 
+
+google: https://cloud.google.com/products/calculator/#id=bae4186c-ec50-4c0c-af97-02a739d88efa
+1cpu 3.75g $28, free $300 on 60 day
+azure:https://azure.microsoft.com/en-us/pricing/calculator/?service=ip-addresses
+1cpu 0.75G $16, ip
+aws: https://calculator.s3.amazonaws.com/index.html
+1cpu 1ip 0.75 $14.48, per ip $3.66v
+

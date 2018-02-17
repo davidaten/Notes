@@ -1,0 +1,103 @@
+﻿https://betterexplained.com/articles/aha-moments-when-learning-git/
+http://rogerdudler.github.io/git-guide/
+
+//=========================================================================================
+//Quick reference
+http://gitref.org/
+//Some mistakes
+http://stevebennett.me/2014/02/26/git-what-they-didnt-tell-you/
+//good and simple dw12345
+http://gitolite.com/gcs.html#(8)
+//The below is the most simple guide
+http://rogerdudler.github.io/git-guide/
+//git on linux
+sudo apt-get install git
+sudo apt-get install git-gui
+git gui
+git clone user@x.x.x.x:/KVM2/xxxx.git
+git clone https://username:password@github.com/davidaten/Notes.git
+//Local init for adding
+git init
+//Server/remote init without master branch, for local to push/clone.
+ssh user@x.x.x.x
+mkdir prj.git
+cd prj.git
+git init --bare
+cd ..
+//Local
+
+git add <filename>
+git add *
+git commit -m "Commit message"
+git gc --prune=now //Cleanup unused commits
+git push origin remote_branch
+
+git fetch //all remote branches
+git fetch origin remote_branch:
+git fetch <remote> <rbranch>:<lbranch> //Fetch and copy
+
+git merge origin remote_branch
+git commit --amend -m"dfadfasdfa"
+git pull //include fetch all and merge of current branch if tracking, NG!!!!
+
+//very useful to check branches matching or not
+git log -2 <branch_name>
+//2=last2, omit <branch_name> current branch; if forget -2 and see :, then q will exit.
+
+git checkout local_branch
+git checkout -b local_branch origin/remote_branch //Create
+
+git branch -a //list all branches
+git branch -r //list remote branches
+git branch -d local_branch
+git branch -d -r origin/remote_branch
+git branch -u origin/remote_branch //Bind tracking info
+git branch -vv //Show tracking info
+
+git remote add origin/github_http https://vogella@github.com/vogella/gitbook.git
+git remote rename github_http github_testing
+git remote show origin //Show all remote branches also
+git remote -v //Show remote servers
+//=========================================================================================
+//GitHub Host a project dw12345
+git push -u origin master
+git push -f origin myBranch //if remote config: receive.denyNonFastForwards = false
+https://github.com/davidaten/Notes
+//Io page
+$ git checkout -b gh-pages
+$ git push origin gh-pages
+http://davidaten.github.io/KjvReader/
+http://blog.teamtreehouse.com/using-github-pages-to-host-your-website
+//=========================================================================================
+git branch merge error:
+Initial: AAAA
+A branch: AABA(ng)
+B branch: AACA(ng) -> AAAA(ok)
+merge A and B ->  AABA, no conflict, but not right. Solutions:
+1. To avoid two branches to modify some files at same time.
+2. Always modify in one branch.
+3. Manual merge between two developing branches.
+//=========================================================================================
+git batch comand xxx.sh file head: #!/bin/bash
+clear history and push: ./cutold.sh
+#Checkout=init -new
+git checkout --orphan cutold_branch
+#Add all the files
+git add -A
+#Commit the changes
+git commit -am "cutold commit"
+#Delete the branch
+git branch -D master
+#Rename the current branch to master
+git branch -m master
+#Finally, force update your repository
+git push -f origin master
+//-----------------------------------------------------------------------------------------
+after above when pull: ./CpyRmt.sh
+git fetch origin
+git reset --hard origin/master
+//-----------------------------------------------------------------------------------------
+commit to another branch:
+git stash
+git checkout other-branch
+git stash pop.

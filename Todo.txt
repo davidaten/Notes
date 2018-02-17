@@ -1,0 +1,54 @@
+c:\Windows\System32\Drivers\etc\hosts
+business
+https://www.wikihow.com/Get-a-Free-Business-Listing-in-Google-Local
+
+https://certsimple.com/blog/chrome-outdated-cryptography
+
+https://graphicdesign.stackexchange.com/questions/59009/what-icon-can-i-use-which-says-auto-saved/59021
+https://graphicdesign.stackexchange.com/questions/323/new-generation-of-save-icon-that-is-not-a-disk/16588
+
+Resmon: 20120=6880+13240
+
+http://www.crunchzilla.com/code-monster
+http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
+
+3. Login button at email position
+
+4.Link icon
+https://www.iconfinder.com/search/?q=link&price=free
+nav bar switch when resize
+https://bl.ocks.org/mpetroff/raw/4666657beeb85754611f/
+nav bar show/hide when scroll
+https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c
+header sticky
+http://thecodepress.blogspot.ca/2013/01/fixed-navigation-bar-in-css-html.html
+image slider
+http://www.menucool.com/slider/create-image-slider-dynamically
+
+KJV next
+https://www.codeproject.com/Articles/997017/A-lightweight-HTML-grid-from-scratch
+https://editor.datatables.net/examples/inline-editing/simple
+https://stackoverflow.com/questions/26233180/resize-div-on-border-drag-and-drop
+
+//Voice messages
+http://stackoverflow.com/questions/646611/programmatically-selecting-partial-text-in-an-input-field
+http://stackoverflow.com/questions/21604919/how-to-select-particular-text-in-textbox-while-textbox-receives-focus?noredirect=1&lq=1
+#text_box::selection {
+    background-color: yellow; //CR83ThOKr6
+}
+//Rteditor video
+https://forums.asp.net/t/2105928.aspx?w3IncludeHTML+from+W3+Schools+Issue
+max text line 640px?
+https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/
+https://stackoverflow.com/questions/8885701/play-local-hard-drive-video-file-with-html5-video-tag
+540px per line
+https://ux.stackexchange.com/questions/108801/what-is-the-best-number-of-paragraph-width-for-readability
+Good look
+http://mikeyanderson.com/optimal_characters_per_line
+Beautify html
+https://www.cleancss.com/html-beautify/
+Autosize textarea
+https://maximilianhoffmann.com/posts/autoresizing-textareas
+http://jsbin.com/zavegobivi/1/edit?html,js,output
+
+mini zip

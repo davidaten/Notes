@@ -1,0 +1,69 @@
+//Setting
+uname -i i686=32 bit,x86_64=64 bit.
+//-------------------------------------------------------------------------------------
+sudo nautilus as root to change file and folder permissions
+sudo chmod -R 766 folder
+chmod: [(ugoa)(+-=)(rwx)/777] [dir/file name] -R
+rwxrwxrwx->user(u)/group(g)/other(o), a->all; +/add,-/remove,=/copy
+//-------------------------------------------------------------------------------------
+screen:
+http://www.computerhope.com/unix/screen.htm
+New=Ctrl+A->c, List=Ctrl+A->", switch=Ctrl+A->Ctrl+A, name=Ctrl+A->A
+Close current session: exit
+//-------------------------------------------------------------------------------------
+find /dev/bus/  //lsusb need root
+lsusb -D /dev/bus/usb/002/005 //Do not scan the /dev/bus/usb
+lsusb -d [vendor]:[product] //hexadecimal: Show only devices of vendor and product.
+lsusb -s [[bus]:][devnum] //decimal: Show only devices in bus and/or devnum
+lsusb -t //Show tree
+lsusb -v //Show description
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-on-ubuntu-12-04
+https://www.howtogeek.com/176471/how-to-share-files-between-windows-and-linux/
+//-------------------------------------------------------------------------------------
+http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
+java -version //Check first
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+sudo apt-get install oracle-java8-set-default
+//update-java-alternatives --list
+//sudo update-java-alternatives --set java-1.8.0-openjdk-i386
+//-------------------------------------------------------------------------------------
+g++ //Check first
+sudo apt-get install g++
+//-------------------------------------------------------------------------------------
+//openssl h/lib files
+openssl version
+sudo apt-get install libssl-dev
+//-------------------------------------------------------------------------------------
+//http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/
+Firefox download eclipse installer then tar xf
+cd /eclipse-installer
+./eclipse-inst
+gksu ./eclipse
+https://www.codeproject.com/Tips/1166875/Visual-Studio-IDE-Shortcuts-for-Eclise-IDE
+
+1. Must be in src to be include as compiling
+2. sharelib: compiling option -fPIC , link option as shared
+3. jni: include /usr/lib/jvm/.../include(/linux)
+4. -Wno-unused-value -Wno-write-strings
+5.Project rename:
+fresh(load from disk)->copy/paste(ask new name)->close/open(refresh internal variables)->delete
+//-------------------------------------------------------------------------------------
+find /usr -name "libpthread.*"
+http://www.binarytides.com/linux-ss-command/
+sudo ss -atn
+http://www.binarytides.com/linux-ps-command/
+ps -eL
+top
+
+cat /etc/passwd
+cat /etc/group
+
+cp -a /foo /bar
+tar cvf archive_name.tar dirname/
+tar xvf archive_name.tar
+tar tvf archive_name.tar
+
+sudo service tftpd-hpa restart
