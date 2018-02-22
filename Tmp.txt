@@ -1,13 +1,7 @@
 
 http://putlockertv.ist/watch/Gbgg2ozd-exodus/episode-2.html
 
-if (p_link->SidMbrId > 0)//Logined
-	{
-		if (strcmp(p_link->SidMbrIdStr, p_link->pQryArgv[1]) == 0)
-			email = 1;
-		else
-			if (SidStat == 0)
-				if (SidRole >= RoleMdrt)
-					email = 1;
-	}
-
+Two copyright lengths:
+CA/AU, after author's death + 50 years;
+US/UK, after author's death + 70 years.
+THE COPYRIGHT OF 4 BOOKS WILL NOT EXPIRE, EVEN AFTER FORBIDDEN BY anti-CHRIST.
