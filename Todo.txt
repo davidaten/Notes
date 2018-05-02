@@ -7,14 +7,9 @@ https://certsimple.com/blog/chrome-outdated-cryptography
 https://graphicdesign.stackexchange.com/questions/59009/what-icon-can-i-use-which-says-auto-saved/59021
 https://graphicdesign.stackexchange.com/questions/323/new-generation-of-save-icon-that-is-not-a-disk/16588
 
-Resmon: 20120=6880+13240
-
-http://www.crunchzilla.com/code-monster
-http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf
-
 3. Login button at email position
 
-4.Link icon
+4. Link icon
 https://www.iconfinder.com/search/?q=link&price=free
 nav bar switch when resize
 https://bl.ocks.org/mpetroff/raw/4666657beeb85754611f/

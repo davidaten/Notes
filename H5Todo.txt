@@ -1,0 +1,8 @@
+http://nicolasgallagher.com/pure-css-gui-icons/demo/
+
+//Table column show/hide
+https://quirksmode.org/css/css2/columns.html#visibility
+https://stackoverflow.com/questions/7754013/hiding-columns-in-table-javascript
+
+//Change cursor to a element
+http://jsfiddle.net/gc99axvc/
